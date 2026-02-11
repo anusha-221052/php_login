@@ -1,0 +1,9 @@
+<?php
+if(isset($_GET['file'])){
+    $file="upploads".$_GET['file'];
+    if(file_exists($file)){
+        unlink($file);
+    }
+    header("location:ffile.php");
+}
+?>
