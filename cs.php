@@ -241,8 +241,8 @@ echo"<br>doing some operation......";*/
 
 //get request
 //if($_GET){
-echo "username is ",$_GET["username"];
-echo "<br>useremail is ",$_GET["email"];
+//echo "username is ",$_GET["username"];
+//echo "<br>useremail is ",$_GET["email"];
 //}
 
 //POST REQUEST
